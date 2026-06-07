@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "Ebrahim Kargar"
+  description: "AI/ML Product Manager. I write about getting AI from idea to production — what actually works, what doesn't, and why."
+  url: "https://ebikargar.github.io"
+  favicon: "assets/favicon.ico"
+
+  navbar:
+    pinned: true
+    left:
+      - text: "Writing"
+        href: posts/index.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ebrahimkargar/
+        aria-label: LinkedIn
+      - icon: twitter-x
+        href: https://x.com/Homaion
+        aria-label: Twitter/X
+      - icon: github
+        href: https://github.com/ebikargar
+        aria-label: GitHub
+
+  page-footer:
+    center: "© 2026 Ebrahim Kargar · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true
+    highlight-style: github

@@ -1,0 +1,90 @@
+/* Hero band */
+.hero-band {
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 3rem 2rem;
+  margin: -1rem -1rem 2rem -1rem;
+  border-radius: 0.5rem;
+}
+
+.hero-band h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0;
+}
+
+.hero-band p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  max-width: 680px;
+}
+
+.hero-band strong {
+  color: white;
+}
+
+.hero-band a.btn-primary {
+  background-color: white;
+  color: #2c3e50;
+  border-color: white;
+  font-weight: 600;
+}
+
+.hero-band a.btn-outline-secondary {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: white;
+}
+
+.hero-band a.btn-outline-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Stats grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: var(--bs-light);
+  border-radius: 0.5rem;
+  border-top: 4px solid #3498db;
+}
+
+.stat-item strong {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
+}
+
+/* Post styling */
+.quarto-listing-default .list-group-item {
+  border-left: 3px solid #3498db;
+  margin-bottom: 0.5rem;
+}
+
+/* About page table */
+.about-table td:first-child {
+  color: var(--bs-secondary);
+  white-space: nowrap;
+}
+
+/* Dark mode adjustments */
+[data-bs-theme="dark"] .stat-item {
+  background: var(--bs-dark);
+}
+
+[data-bs-theme="dark"] .stat-item strong {
+  color: #74b9e9;
+}
+
+[data-bs-theme="dark"] .hero-band {
+  background: linear-gradient(135deg, #1a252f 0%, #2980b9 100%);
+}

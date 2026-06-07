@@ -1,0 +1,80 @@
+---
+title: "From 4 to 70: What I Learned Scaling AI at HelloFresh"
+description: "Three years of running an AI/ML platform at a consumer tech company taught me more than any framework. Here's the honest version."
+date: 2026-06-07
+categories: [mlops, production, platform]
+image: cover.png
+draft: false
+---
+
+> *This is a draft scaffold. Replace with your actual story — you lived it.*
+
+In 2022, HelloFresh had 4 ML models running in production across the business. By the time I moved on, there were 70. The platform those models ran on generated $25M+ in annual revenue, reached 400x MAU growth, and cut the average time-to-production for a new model from 3 months to 1 month.
+
+I was the Staff PM responsible for the AI/ML Platform the whole time. I want to write down what actually drove those results — not the headline numbers, but the operational decisions behind them.
+
+---
+
+## Why most AI platforms stall at "proof of concept"
+
+The 4-model state we started from wasn't the result of talent gaps or lack of ambition. HelloFresh had excellent data scientists. The constraint was infrastructure and process, not people.
+
+Every model was its own island. Each team had built their own:
+- Feature pipelines
+- Training infrastructure
+- Deployment process
+- Monitoring (or lack of it)
+
+When something broke — and it always breaks — the only person who could fix it was the person who built it. No shared vocabulary, no shared tooling, no shared standards. Knowledge lived in heads and Confluence pages nobody read.
+
+The first thing I learned: **the bottleneck in AI at scale is almost never the model. It's the scaffold around it.**
+
+---
+
+## What we actually built
+
+### 1. A shared feature store
+
+[Fill in with your specifics about the feature store implementation, what teams it served, and what problem it solved]
+
+### 2. Operational Readiness Checklists (ORC)
+
+Before a model could go to production, it had to pass a checklist. Not a bureaucratic checklist — a functional one. Questions like:
+
+- What's the fallback behavior when the model call times out?
+- Who owns the model drift alert at 2am?
+- What's the business impact of a false positive vs. false negative, and have you validated the threshold against it?
+
+[Fill in with your actual ORC story — what it caught, what resistance you faced, how it changed the culture]
+
+### 3. ML Observability
+
+[Fill in with what you built for drift monitoring and observability, and what you learned from it]
+
+---
+
+## The harder problem: organizational change
+
+The technical work was the easy part. The harder work was changing how 8+ data science teams thought about what "production-ready" meant.
+
+[Fill in with your actual change management story — the resistance, the wins, what changed culture]
+
+---
+
+## What I'd do differently
+
+[Your real lessons. This is the most valuable part of the post — readers can find general MLOps advice anywhere. They can't find your specific hard-won mistakes anywhere.]
+
+---
+
+## The number that matters
+
+The metric I'm most proud of isn't the 70 models. It's the 1 month.
+
+When I started, it took 3 months from "model trained and validated" to "model generating revenue in production." By the time we finished, it was 1 month. That's not a small improvement — it's the difference between data science teams being a competitive advantage and being a lagging indicator.
+
+[Expand on why LTTP (Lead Time to Production) is the right metric for an AI platform, and what drove the 3x improvement]
+
+---
+
+*Ebrahim Kargar is Product Lead, AI Platform at Smartly and co-founder of MimixLabs. He was previously Staff PM for AI/ML Platform at HelloFresh. He writes about AI in production at [ebikargar.github.io](https://ebikargar.github.io).*

@@ -1,0 +1,61 @@
+---
+title: ""
+page-layout: full
+toc: false
+listing:
+  - id: recent-posts
+    contents: posts
+    sort: "date desc"
+    type: default
+    max-items: 5
+    fields: [date, title, description, categories, reading-time]
+---
+
+::: {.hero-band}
+
+## Hi, I'm Ebrahim 👋
+
+**Product Lead, AI Platform @ [Smartly](https://www.smartly.io)** · Co-founder @ [MimixLabs](https://mimixlabs.ai) · Berlin
+
+I build AI that ships — not AI that demos. I write about the operational realities of getting AI from idea to production. What actually works. What doesn't. Why.
+
+[About Me](about.qmd){.btn .btn-primary .btn-sm}  [LinkedIn](https://www.linkedin.com/in/ebrahimkargar/){.btn .btn-outline-secondary .btn-sm}  [MimixLabs](https://mimixlabs.ai){.btn .btn-outline-secondary .btn-sm}
+
+:::
+
+---
+
+## Writing
+
+::: {#recent-posts}
+:::
+
+[All posts →](posts/index.qmd)
+
+---
+
+## Numbers
+
+::: {.stats-grid}
+
+::: {.stat-item}
+**70 models**
+in production at HelloFresh (from 4)
+:::
+
+::: {.stat-item}
+**$25M+**
+annual revenue from ML
+:::
+
+::: {.stat-item}
+**400x**
+MAU growth on the platform
+:::
+
+::: {.stat-item}
+**3× faster**
+model time-to-production
+:::
+
+:::
