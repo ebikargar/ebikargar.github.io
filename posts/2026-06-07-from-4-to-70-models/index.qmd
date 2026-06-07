@@ -3,7 +3,6 @@ title: "From 4 to 70: What I Learned Scaling AI at HelloFresh"
 description: "Three years of running an AI/ML platform at a consumer tech company taught me more than any framework. Here's the honest version."
 date: 2026-06-07
 categories: [mlops, production, platform]
-image: cover.png
 draft: false
 ---
 

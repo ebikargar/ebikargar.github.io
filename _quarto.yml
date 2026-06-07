@@ -5,8 +5,6 @@ website:
   title: "Ebrahim Kargar"
   description: "AI/ML Product Manager. I write about getting AI from idea to production — what actually works, what doesn't, and why."
   url: "https://ebikargar.github.io"
-  favicon: "assets/favicon.ico"
-
   navbar:
     pinned: true
     left:
@@ -18,7 +16,7 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/ebrahimkargar/
         aria-label: LinkedIn
-      - icon: twitter-x
+      - icon: twitter
         href: https://x.com/Homaion
         aria-label: Twitter/X
       - icon: github
