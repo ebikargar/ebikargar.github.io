@@ -3,49 +3,52 @@ title: "About"
 toc: false
 ---
 
-I'm a product manager specializing in AI/ML platforms and agentic AI systems. I sit at the intersection of product strategy and ML engineering — and I've done it at scale, not in theory.
+I love building for Builders.
 
-## What I Do
+In my Product Management career, I've crafted platform products that drive growth — building from the ground up and scaling existing ones across food, mobility, and e-commerce sectors. My expertise spans AI/ML and developer platforms, including APIs and authentication.
 
-I lead **AI Platform at [Smartly](https://www.smartly.io)** — one of the world's largest ad-tech platforms — where I'm shipping Agent Harness, AI Applications, ML Foundation, and MLOps infrastructure. This is enterprise-scale agentic AI, running in production, today.
+Known for staying hands-on and close to product and execution details, inspiring cross-functional teams toward a bold, shared vision, and championing ideas that are visionary and sometimes unconventional.
 
-In parallel, I'm co-founding **[MimixLabs](https://mimixlabs.ai)** with [Navid Ghayazi](https://navid-ghayazi.web.app/): behavioral simulation for AI-native product development. Our Behavioral Identity Persona (BIP) engine is validated against 42M+ events and 1.4M+ users with 73.9% behavioral similarity vs. real humans. We simulate how users behave before you build.
+---
 
-## Track Record
+## Now
 
-Before this, I spent 3+ years as **Staff PM for AI/ML Platform at [HelloFresh](https://engineering.hellofresh.com)** — responsible for the platform that powers all data science across the business.
+**Product Lead, AI Platform** at [Smartly](https://www.smartly.io) — one of the world's largest ad-tech platforms. I lead Agent Harness, AI Applications, ML Foundation, and MLOps. Enterprise-scale agentic AI, running in production today.
 
-| What | Result |
+**Co-founder** at [MimixLabs](https://mimixlabs.ai) with [Navid Ghayazi](https://navid-ghayazi.web.app/). We simulate how real users behave before you build — validated against 42M+ events and 1.4M+ users with 73.9% behavioral similarity vs. real humans.
+
+---
+
+## Before
+
+**Staff PM, AI/ML Platform — HelloFresh** (3+ years)
+
+I owned the platform that powered all data science across the business. We scaled from 4 models to 70 in production, generated $25M+ in annual revenue from ML, and cut time-to-production from 3 months to 1 month.
+
+| | |
 |---|---|
 | ML models in production | 4 → **70** |
 | Annual revenue from ML | **$25M+** |
 | MAU growth | **400x** |
-| Model time-to-production | 3 months → **1 month** |
+| Time-to-production | 3 months → **1 month** |
 | Data science teams served | **8+** |
 
-I built the MLOps infrastructure, the feature store, the Operational Readiness Checklists (ORC), and the observability and drift monitoring stack that made this possible — alongside the data science teams shipping the models.
+I built the MLOps infrastructure, feature store, Operational Readiness Checklists (ORC), and drift monitoring stack — not from a distance.
 
-Earlier in my career I co-founded **IT Leaders** (acquired 2012), giving me founder DNA alongside operator depth. I also hold an MSc in Software Engineering from [Politecnico di Torino](https://www.polito.it/), which means I can read code and sit in rooms with engineers without needing a translator.
+**Co-Founder — IT Leaders** (acquired 2012). Fifteen-year track record of building and exiting. Founder DNA alongside operator depth.
 
-## Why I Write
+**MSc Software Engineering — Politecnico di Torino.** Engineering foundation. I can read code and sit in rooms with engineers without needing a translator.
 
-Most content about AI in the enterprise is either theoretical or promotional. I write to fill the gap: operational, specific, earned.
-
-The things I care about:
-- Why AI projects fail before they generate €1 (and how to prevent it)
-- What MLOps actually means when you have 70 models in production
-- How to build agentic AI systems that don't collapse under real workloads
-- What "AI-native product development" means beyond the buzzword
+---
 
 ## Speaking & Community
 
-- **Speaker** — ProductLab Conference 2025: "AI Transformation" panel
-- **Workshop Mentor** — Ampli Berlin "Product × AI Studio" — hands-on AI prototyping workshops for product teams
-- **Based in** — Berlin, deeply embedded in the European AI/scale-up ecosystem
+Speaker at **ProductLab Conference 2025** — "AI Transformation" panel.
 
-## Let's Connect
+Workshop mentor at **Ampli Berlin "Product × AI Studio"** — making AI not just approachable but genuinely actionable for product teams.
 
-- [LinkedIn](https://www.linkedin.com/in/ebrahimkargar/)
-- [Twitter / X](https://x.com/Homaion)
-- [MimixLabs](https://mimixlabs.ai)
-- [GitHub](https://github.com/ebikargar)
+---
+
+## Connect
+
+[LinkedIn](https://www.linkedin.com/in/ebrahimkargar/) · [X / Twitter](https://x.com/Homaion) · [MimixLabs](https://mimixlabs.ai) · [GitHub](https://github.com/ebikargar)

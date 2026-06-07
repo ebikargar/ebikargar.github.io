@@ -6,24 +6,31 @@ listing:
   - id: recent-posts
     contents: posts
     sort: "date desc"
-    type: default
+    type: table
     max-items: 5
-    fields: [date, title, description, categories, reading-time]
+    fields: [date, title]
+    date-format: "MMM YYYY"
 ---
 
-::: {.hero-band}
+::: {.intro}
 
-## Hi, I'm Ebrahim 👋
-
-**Product Lead, AI Platform @ [Smartly](https://www.smartly.io)** · Co-founder @ [MimixLabs](https://mimixlabs.ai) · Berlin
-
-I build AI that ships — not AI that demos. I write about the operational realities of getting AI from idea to production. What actually works. What doesn't. Why.
-
-[About Me](about.qmd){.btn .btn-primary .btn-sm}  [LinkedIn](https://www.linkedin.com/in/ebrahimkargar/){.btn .btn-outline-secondary .btn-sm}  [MimixLabs](https://mimixlabs.ai){.btn .btn-outline-secondary .btn-sm}
-
+::: {.byline}
+Product Manager · AI/ML · Berlin
 :::
 
----
+## Ebrahim Kargar
+
+I love building for Builders. In my Product Management career, I've crafted platform products that drive growth — building from the ground up and scaling existing ones across food, mobility, and e-commerce. My expertise spans AI/ML and developer platforms, including APIs and authentication.
+
+Known for staying hands-on and close to execution, inspiring cross-functional teams toward a bold shared vision, and championing ideas that are visionary and sometimes unconventional.
+
+Currently **Product Lead, AI Platform** at [Smartly](https://www.smartly.io). Co-founder at [MimixLabs](https://mimixlabs.ai).
+
+::: {.links}
+[About](about.qmd) · [Writing](posts/index.qmd) · [LinkedIn](https://www.linkedin.com/in/ebrahimkargar/) · [X](https://x.com/Homaion) · [GitHub](https://github.com/ebikargar)
+:::
+
+:::
 
 ## Writing
 
@@ -34,27 +41,29 @@ I build AI that ships — not AI that demos. I write about the operational reali
 
 ---
 
-## Numbers
+::: {.stats-row}
 
-::: {.stats-grid}
-
-::: {.stat-item}
+::: {.stat}
 **70 models**
+
 in production at HelloFresh (from 4)
 :::
 
-::: {.stat-item}
+::: {.stat}
 **$25M+**
+
 annual revenue from ML
 :::
 
-::: {.stat-item}
+::: {.stat}
 **400x**
+
 MAU growth on the platform
 :::
 
-::: {.stat-item}
+::: {.stat}
 **3× faster**
+
 model time-to-production
 :::
 
