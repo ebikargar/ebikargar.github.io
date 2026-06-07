@@ -4,7 +4,7 @@ project:
 website:
   title: "Ebrahim Kargar"
   description: "AI/ML Product Manager. I write about getting AI from idea to production — what actually works, what doesn't, and why."
-  url: "https://ebikargar.github.io"
+  site-url: "https://ebikargar.github.io"
   navbar:
     pinned: true
     left:
